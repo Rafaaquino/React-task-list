@@ -1,12 +1,13 @@
 import TodosProvider from './state/todo/Provider'
 import FilterProvider from './state/filter/Provider'
+import TodoApp from './pages/TodoApp/TodoApp'
 
 
 function App() {
   return (
     <TodosProvider>
       <FilterProvider>
-        <h1>Teste Inicial</h1>
+        <TodoApp></TodoApp>
       </FilterProvider>
     </TodosProvider>
     
