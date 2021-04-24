@@ -1,5 +1,16 @@
+@font-face {
+  font-family: 'Lexend Deca';
+  src: url(./assets/fonts/LexendDeca.ttf);
+}
+
+
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+*:focus{
+  outline: none;
 }
