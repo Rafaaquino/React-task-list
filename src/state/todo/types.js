@@ -1,4 +1,0 @@
-export const  ADD_TODO = 'ADD_TODO'
-export const  TOOGLE_TODO_STATUS = 'TOOGLE_TODO_STATUS'
-export const TOGGLE_TITLE = 'TOGGLE_TITLE'
-export const REMOVER_TODO = 'REMOVER_TODO'

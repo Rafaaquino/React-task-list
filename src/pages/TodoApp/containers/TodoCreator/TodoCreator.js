@@ -1,10 +1,10 @@
 import React, { useContext, useEffect } from 'react'
 import { useFormik } from 'formik'
-import TodoContext from '../../../../state/todo/Context'
-import * as todosActions from '../../../../state/todo/actions'
+import TodosContext from '../../../../state/todos/Context'
+import * as todosActions from '../../../../state/todos/actions'
 
-function TodoCreator(){
-    const { todos, dispatchToTodos } = useContext(TodoContext)
+function TodosCreator(){
+    const { todos, dispatchToTodos } = useContext(TodosContext)
 
     useEffect(() => {
         console.log(todos)
@@ -33,4 +33,4 @@ function TodoCreator(){
     )
 }
 
-export default TodoCreator
+export default TodosCreator

@@ -1,12 +1,12 @@
-import * as filterTypes from "./types"
+import * as filterTypes from './types'
 
-function reducer(_, action){
+function reducer(_, action) {
     switch (action.type) {
         case filterTypes.TOGGLE_FILTER:
-            return action.payload.filterTypes
+            return action.payload.filter
         default:
-            throw new Error()    
+            throw new Error()
     }
 }
 
-export default reducer;
+export default reducer

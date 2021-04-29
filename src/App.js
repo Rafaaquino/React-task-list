@@ -1,17 +1,16 @@
-import TodosProvider from './state/todo/Provider'
+import React from 'react'
+import TodosProvider from './state/todos/Provider'
 import FilterProvider from './state/filter/Provider'
 import TodoApp from './pages/TodoApp/TodoApp'
-
 
 function App() {
   return (
     <TodosProvider>
       <FilterProvider>
-        <TodoApp></TodoApp>
+        <TodoApp/>
       </FilterProvider>
     </TodosProvider>
-    
-  );
+  )
 }
 
-export default App;
+export default App
